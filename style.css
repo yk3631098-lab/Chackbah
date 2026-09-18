@@ -1,10 +1,17 @@
-body{
-  height: 100vh;
-  background: #010101;
+body {
+    font-size: 15pt;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #202020;
 }
 
 .box{
-  width: 100px;
-  height: 100px;
-  background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: #202020;
+    box-shadow: 3px 3px 8px #0000006B , -3px -3px 8px #FFFFFF0A;
+    transition: 0.5s;
 }
